@@ -1,0 +1,38 @@
+.cart {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .cart h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+  
+  .cart-items li {
+    margin-bottom: 5px;
+  }
+  
+  .cart-total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cart-total .total {
+    color: green;
+  }
+  
+  .clear-cart {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
